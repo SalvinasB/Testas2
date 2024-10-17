@@ -1,0 +1,45 @@
+.card {
+  height: 700px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(208, 201, 199);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+.card__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card__title {
+  text-decoration: underline;
+}
+.card__text::-moz-selection {
+  background-color: pink;
+}
+.card__text::selection {
+  background-color: pink;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons-container__buttons {
+  width: 200px;
+  padding: 25px 50px;
+  border-radius: 10px;
+  font-size: 36px;
+}
+.buttons-container__buttons--primary {
+  background-color: greenyellow;
+}
+.buttons-container__buttons--secondary {
+  background-color: brown;
+}/*# sourceMappingURL=style.css.map */
